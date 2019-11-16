@@ -43,6 +43,7 @@ action:
   data:
     title: "Test to 2 devices"
     message: "Attention [b]bold[/b] text[br][url=https://www.pushsafer.com]Link to Pushsafer[/url]"
+    target: ["1111", "2222"],
     data:
       icon: "2"
       iconcolor: "#FF0000"
@@ -61,6 +62,7 @@ action:
   data:
     title: "Test to 1 device with image from an url"
     message: "Attention [i]italic[/i] Text[br][url=https://www.home-assistant.io/]Testlink[/url]"
+    target: ["1111"],
     data:
       icon: "14"
       iconcolor: "#FFFF00"
